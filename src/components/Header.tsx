@@ -14,7 +14,11 @@ export function HeaderSite(){
                 </div>
             </header>
             <body className={style.bodySite}>
-                
+                <div>
+                    <h1>T</h1>
+                    <button><a href="">Aqui um CTA</a></button>
+                </div>
+                <Soda/>
             </body>
         </div>
     )
