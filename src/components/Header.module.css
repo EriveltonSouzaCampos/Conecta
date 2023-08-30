@@ -36,7 +36,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 2rem;
+    padding: 4rem 0;
+
 }
 .contentTitle{
     width: 45%;
@@ -64,4 +65,60 @@
     font-family: 'inter';
     font-size: 0.875rem;
     font-weight: 500;
+}
+@media (max-width:1015px){
+    .bodySite{
+        justify-content: center;
+    }
+    .contentTitle{
+        width: 60%;
+    }
+}
+
+@media (max-width:835px){
+    .bodySite > img{
+        width: 30vw;
+    }
+    .contentTitle > h1{
+        font-size: 3rem;
+    }
+}
+@media (max-width:591px){
+    .contentTitle > h1{
+        font-size: 2rem;
+    }
+    .contentTitle > button{
+        padding: 0.8rem;
+    }
+    .contentTitle button > a{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:389px){
+    .bodySite{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bodySite > img{
+        width: 56vw;
+    }
+    .contentTitle{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contentTitle > h1{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .contentTitle > button{
+        width: 70%;
+    }
+}
+@media (max-width:285px){
+    .head h1{
+        margin: 0;
+    }
 }
