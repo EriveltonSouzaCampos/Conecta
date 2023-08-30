@@ -47,10 +47,11 @@ table {
 } 
 
 :root{
-	--gray-600: #1B1F1C;
-  --gray-700: #0E0E0E;
-  --black: #000000;
-  --green-400: #00EC5B;
+	--gray-500: #1B1F1C;
+	--gray-600: #101213;
+  	--gray-700: #0E0E0E;
+  	--black: #000000;
+  	--green-400: #00EC5B;
 }
 :focus{
 	outline: transparent;
@@ -59,7 +60,7 @@ body{
 	-webkit-font-smoothing: antialiased;
 }
 body, button, textarea, input{
-	font-family: 'Roboto';
+	font-family: 'Archivo';
 	font-size: 1rem;
 	font-weight: 400;
 }
