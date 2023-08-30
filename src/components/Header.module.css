@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    font-family: 'Archivo';
+    font-family: 'inter';
     color: #FFFFFF;
 }
 .headerConter > img{
@@ -21,7 +21,7 @@
     padding: 1rem 0;
 }
 .head > h1{
-    margin-right: calc(50rem);
+    margin-right: calc(40%);
     font-size: 1.5rem;
 }
 .socialMediaLogo{
@@ -31,4 +31,37 @@
 .socialMediaLogo a{
     text-decoration: none;
     color: #FFFFFF;
+}
+.bodySite{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+.contentTitle{
+    width: 45%;
+}
+
+.contentTitle > h1{
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.contentTitle button{
+    margin: 0.5rem 0 0 1rem;
+    padding: 1.125rem;
+    border-radius: 3.4rem;
+    background-color: var(--green-400);
+    border: none;
+}
+.contentTitle button:hover{
+    cursor: pointer;
+}
+.contentTitle button > a{
+    text-decoration: none;
+    color: var(--gray-600);
+    font-family: 'inter';
+    font-size: 0.875rem;
+    font-weight: 500;
 }
