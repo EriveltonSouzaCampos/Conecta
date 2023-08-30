@@ -20,8 +20,8 @@ export function HeaderSite(){
                 </div>
             </header>
             <body className={style.bodySite}>
-                <div>
-                    <h1>T</h1>
+                <div className={style.contentTitle}>
+                    <h1>Aqui um título de duas linhas</h1>
                     <button><a href="">Aqui um CTA</a></button>
                 </div>
                 <Soda/>
