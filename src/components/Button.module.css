@@ -1,0 +1,16 @@
+button{
+    padding: 1.125rem;
+    border-radius: 3.4rem;
+    background-color: var(--green-400);
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--gray-600);
+    font-family: 'inter';
+    font-size: 0.875rem;
+    font-weight: 500;
+}
