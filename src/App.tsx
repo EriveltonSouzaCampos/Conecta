@@ -6,16 +6,16 @@ function App() {
   const products = [
     {
       id: 1,
-      img: './assests/latas.svg',
+      img: '/src/assets/latas.svg',
       name: 'Lata de Cola',
       description: 'lorem lorem lorem lorem e lorem'
     },
-    {
-      id: 2,
-      img: './assests/latas.svg',
-      name: 'Lata de Cola',
-      description: 'lorem lorem lorem lorem e lorem'
-    },
+     {
+       id: 2,
+        img: '/src/assets/garrafa.svg',
+       name: 'Lata de Cola',
+       description: 'lorem lorem lorem lorem e lorem'
+     },
   ]
   return (
    <div>
@@ -23,7 +23,7 @@ function App() {
       <div>
           <h1>Produtos</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Volupta, reiciendis quo?</p>
-          <div>
+          <div className={style.product}>
               {
                 products.map((prod) => (
                   <Prods 
