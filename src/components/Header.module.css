@@ -50,21 +50,7 @@
 
 }
 .contentTitle button{
-    margin: 0.5rem 0 0 1rem;
-    padding: 1.125rem;
-    border-radius: 3.4rem;
-    background-color: var(--green-400);
-    border: none;
-}
-.contentTitle button:hover{
-    cursor: pointer;
-}
-.contentTitle button > a{
-    text-decoration: none;
-    color: var(--gray-600);
-    font-family: 'inter';
-    font-size: 0.875rem;
-    font-weight: 500;
+    margin: 0.5rem 0 0 1rem;   
 }
 @media (max-width:1015px){
     .bodySite{
@@ -87,10 +73,10 @@
     .contentTitle > h1{
         font-size: 2rem;
     }
-    .contentTitle > button{
+    .contentTitle a > button{
         padding: 0.8rem;
     }
-    .contentTitle button > a{
+    .contentTitle > a{
         font-size: 0.7rem;
     }
 }
@@ -112,9 +98,14 @@
         text-align: center;
         width: 100%;
     }
-    
-    .contentTitle > button{
-        width: 70%;
+    .contentTitle > a{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .contentTitle a > button{
+        margin: 0;
+        width: 80%;
     }
 }
 @media (max-width:285px){
