@@ -40,17 +40,20 @@
 }
 
 .orderYourDrink{
-    background-image: url('./assets/bar.svg');
-    background-repeat: no-repeat;
-    width: 35.759rem;
-    height: 50%;
     color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     font-size: 2rem;
     font-weight: 700;
     font-family: 'Archivo';
+    position: relative;
+    height: 50%;
+}
+.orderYourDrink p{
+    position: absolute;
+    top: 50%;
+    z-index: 5;
 }
 
 
@@ -58,6 +61,8 @@
 
 /*end*/
 /*Medias*/
+
+/*Media Products*/
 
 @media (max-width: 913px) {
     .productConter span > p{
@@ -75,5 +80,27 @@
 @media (max-width: 375px) {
     .productConter span > p{
         width: 100%;
+    }
+}
+
+/*end*/
+/*Media Marketing*/
+
+@media (max-width:1151px) {
+    .marketingConter > img{
+        width: 24.94rem;
+    }
+    .orderYourDrink{
+        justify-content: flex-start;
+    }
+    .orderYourDrink > img{
+        width: 25rem;
+    }
+    .orderYourDrink p{
+        position: absolute;
+        top: 50%;
+        z-index: 5;
+        right: 22%;
+        font-size: 1.5rem;
     }
 }
