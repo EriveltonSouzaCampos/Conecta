@@ -1,0 +1,43 @@
+.carouselConter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35.589rem;
+    height: 51%;
+    background-color: var(--gray-500);
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    color: #FFFFFF;
+}
+.textSlide {
+    text-align: center;
+    font-size: 1.125rem;
+    width: 60%;
+    font-family: 'Archivo';
+}
+.author{
+    font-family: 'Lexend';
+    font-size: 0.875rem;
+}
+.dotsConter {
+    display: flex;
+}
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4b4b4b;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: #FFFFFF;
+}
+  
+ 
