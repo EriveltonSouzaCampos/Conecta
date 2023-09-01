@@ -2,6 +2,7 @@ import { HeaderSite } from "./components/Header"
 import style from './App.module.css'
 import { Prods } from "./components/Products"
 import sidePicture from './assets/conversas.svg'
+import drinkPicture from './assets/bar.svg'
 import Carousel from "./components/Carousel"
 
 function App() {
@@ -53,6 +54,7 @@ function App() {
             slides={slides}
           /> 
           <div className={style.orderYourDrink}>
+            <img src={drinkPicture} alt="" />
             <p>Peça para seu bar</p>  
           </div>
         </div>
