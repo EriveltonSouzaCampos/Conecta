@@ -2,7 +2,6 @@ import { HeaderSite } from "./components/Header"
 import style from './App.module.css'
 import { Prods } from "./components/Products"
 import sidePicture from './assets/conversas.svg'
-import drinkPicture from './assets/bar.svg'
 import Carousel from "./components/Carousel"
 
 function App() {
@@ -23,9 +22,9 @@ function App() {
   
   const slides = [
     { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielmaciel' },
-    { text: 'Texto 2', author: 'autor2' },
-    { text: 'Texto 3', author: 'autor3' },
-    { text: 'Texto 4', author: 'autor4' }
+    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@joaomaciel' },
+    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielclaudio' },
+    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielmarte' }
   ];
   return (
    <div>
