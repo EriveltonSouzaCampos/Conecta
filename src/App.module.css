@@ -1,3 +1,4 @@
+/*Product section*/
 .productConter span{
     display: flex;
     flex-direction: column;
@@ -23,6 +24,35 @@
     gap: 2rem;
     padding: 2rem 0;
 }
+
+/*end*/
+/*Marketing section*/
+
+.marketingConter{
+    display: flex;
+    justify-content: center;
+    padding: 9rem 0;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orderYourDrink{
+    background-image: url('./assets/bar.svg');
+    background-repeat: no-repeat;
+    width: 35.759rem;
+    height: 50%;
+    color: white;
+}
+
+
+
+
+/*end*/
+/*Medias*/
+
 @media (max-width: 913px) {
     .productConter span > p{
         width: 55%;
