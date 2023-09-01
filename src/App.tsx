@@ -19,6 +19,13 @@ function App() {
        description: 'Lorem ipsum dolor sit amet'
      },
   ]
+  
+  const slides = [
+    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielmaciel' },
+    { text: 'Texto 2', author: 'autor2' },
+    { text: 'Texto 3', author: 'autor3' },
+    { text: 'Texto 4', author: 'autor4' }
+  ];
   return (
    <div>
       <header><HeaderSite/></header>
@@ -41,11 +48,10 @@ function App() {
       </div>
       <div className={style.marketingConter}>
         <img src={sidePicture} alt="Pessoas num bar" />
-        <div>
-          algo
-          <div>
-            <img src={drinkPicture} alt="Bebidas" />
-            <p>Faça seu pedido</p>  
+        <div className={style.carousel}>
+          <p>algo</p>
+          <div className={style.orderYourDrink}>
+            <p>Peça para seu bar</p>  
           </div>
         </div>
       </div>
