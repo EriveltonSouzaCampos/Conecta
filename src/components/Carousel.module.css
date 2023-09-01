@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 35.589rem;
-    height: 51%;
+    height: 60%;
     background-color: var(--gray-500);
 }
 .carousel{
@@ -43,5 +43,27 @@
 @media (max-width:1151px) {
     .carouselConter{
         width: 25rem;
+    }
+}
+@media (max-width: 705px) {
+    .carouselConter{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+@media (max-width: 405px) {
+    .carouselConter{
+        width: 20rem;
+        height: 25rem;
+    }
+    .textSlide {
+        font-size: 1rem;
+        width: 90%;
+    }
+}
+@media (max-width: 325px) {
+    .carouselConter{
+        width: 16rem;
+        height: 30rem;
     }
 }

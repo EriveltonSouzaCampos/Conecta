@@ -50,6 +50,7 @@
     position: relative;
     height: 50%;
 }
+
 .orderYourDrink p{
     position: absolute;
     top: 50%;
@@ -97,10 +98,57 @@
         width: 25rem;
     }
     .orderYourDrink p{
-        position: absolute;
-        top: 50%;
-        z-index: 5;
         right: 22%;
         font-size: 1.5rem;
+    }
+}
+@media (max-width:803px) {
+    .marketingConter > img{
+        width: 18.75rem;
+        height: 50rem;
+        object-fit: cover;
+    }
+    .orderYourDrink{
+        justify-content: flex-start;
+    }
+    .orderYourDrink > img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 705px) {
+    .marketingConter{
+        flex-direction: column;
+        align-items: center;
+    }
+    .marketingConter > img{
+        width: 25rem;
+    }
+    
+}
+@media (max-width: 405px) {
+    .marketingConter > img{
+        width: 20rem;
+    }
+    .orderYourDrink > img{
+        width: 20rem;
+        height: 18rem;
+    }
+    .orderYourDrink p{
+        right: 18%;
+        font-size: 1.125rem;
+    }
+}
+@media (max-width: 325px) {
+    .marketingConter > img{
+        width: 16rem;
+    }
+    .orderYourDrink > img{
+        width: 16rem;
+        height: 15rem;
+    }
+    .orderYourDrink p{
+        right: 18%;
+        font-size: 1.125rem;
     }
 }
