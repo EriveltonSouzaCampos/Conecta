@@ -17,8 +17,10 @@ const Carousel = ({ slides }: TextCarouselProps) => {
 
   return (
     <div className={style.carouselConter}>
-      <div className={style.slide}>{slides[currentIndex].text}</div>
-      <div className={style.author}>{slides[currentIndex].author}</div>
+      <div className={style.carousel}>
+          <div className={style.textSlide}>{slides[currentIndex].text}</div>
+          <div className={style.author}>{slides[currentIndex].author}</div>
+      </div>
       <div className={style.dotsConter}>
         {slides.map((slide, index) => (
           <span
