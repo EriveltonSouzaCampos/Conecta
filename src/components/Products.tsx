@@ -1,3 +1,4 @@
+import { Button } from './Button';
 import style from './Products.module.css'
 interface prodsProps{
     name: string;
@@ -14,7 +15,7 @@ export function Prods(props: prodsProps){
                 <h1>{props.name}</h1>
                 <p>{props.description}</p>
             </div>
-            <a href=""><button type="button">Aqui um CTA</button></a>
+            <Button/>
         </div>
     )
 }

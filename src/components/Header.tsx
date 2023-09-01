@@ -3,6 +3,7 @@ import photoBackground from '../assets/foto_de_fundo.svg'
 import { FacebookLogo } from 'phosphor-react';
 import { InstagramLogo } from 'phosphor-react';
 import { Soda } from './SodaPicture';
+import { Button } from './Button';
 
 export function HeaderSite(){
     return(
@@ -22,7 +23,7 @@ export function HeaderSite(){
             <body className={style.bodySite}>
                 <div className={style.contentTitle}>
                     <h1>Aqui um título de duas linhas</h1>
-                    <button><a href="">Aqui um CTA</a></button>
+                    <Button/>
                 </div>
                 <Soda/>
             </body>
