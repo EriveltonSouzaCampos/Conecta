@@ -3,6 +3,7 @@ import style from './App.module.css'
 import { Prods } from "./components/Products"
 import sidePicture from './assets/conversas.svg'
 import drinkPicture from './assets/bar.svg'
+import Carousel from "./components/Carousel"
 
 function App() {
   const products = [
@@ -49,7 +50,9 @@ function App() {
       <div className={style.marketingConter}>
         <img src={sidePicture} alt="Pessoas num bar" />
         <div className={style.carousel}>
-          <p>algo</p>
+          <Carousel
+            slides={slides}
+          />
           <div className={style.orderYourDrink}>
             <p>Peça para seu bar</p>  
           </div>
