@@ -40,4 +40,8 @@
     background-color: #FFFFFF;
 }
   
- 
+@media (max-width:1151px) {
+    .carouselConter{
+        width: 25rem;
+    }
+}
