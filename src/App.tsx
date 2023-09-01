@@ -1,6 +1,8 @@
 import { HeaderSite } from "./components/Header"
 import style from './App.module.css'
 import { Prods } from "./components/Products"
+import sidePicture from './assets/conversas.svg'
+import drinkPicture from './assets/bar.svg'
 
 function App() {
   const products = [
@@ -36,6 +38,16 @@ function App() {
                 ))
               }
           </div>
+      </div>
+      <div className={style.marketingConter}>
+        <img src={sidePicture} alt="Pessoas num bar" />
+        <div>
+          algo
+          <div>
+            <img src={drinkPicture} alt="Bebidas" />
+            <p>Faça seu pedido</p>  
+          </div>
+        </div>
       </div>
    </div>
   )
