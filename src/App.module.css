@@ -23,3 +23,21 @@
     gap: 2rem;
     padding: 2rem 0;
 }
+@media (max-width: 913px) {
+    .productConter span > p{
+        width: 55%;
+    }
+}
+@media (max-width: 649px) {
+    .product{
+        flex-wrap: wrap;
+    }
+    .productConter span > p{
+        width: 89%;
+    }
+}
+@media (max-width: 375px) {
+    .productConter span > p{
+        width: 100%;
+    }
+}

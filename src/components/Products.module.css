@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     border-radius: 8px;
+    position: relative;
 }
 .prodContent{
     display: flex;
@@ -34,5 +35,31 @@
     font-family: 'roboto';
 }
 .prodConter > a{
-    margin-bottom: calc(0px - 80px);
+    position: absolute;
+    bottom: -25px;
+}
+
+@media (max-width: 700px) {
+    .prodConter{
+        width: 300px;
+    }
+    .prodContent img{
+        width: 30vw;
+        height: 25vh;
+    }
+}
+@media (max-width: 631px) {
+    .prodConter + .prodConter{
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 343px) {
+    .prodContent img{
+        width: 50vw;
+        height: 30vh;
+    }
+    .prodConter{
+        width: 270px;
+    }
 }
