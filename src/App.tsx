@@ -22,9 +22,9 @@ function App() {
   
   const slides = [
     { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielmaciel' },
-    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@joaomaciel' },
-    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielclaudio' },
-    { text: '“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”', author: '@danielmarte' }
+    { text: '“Lorem ipsum dolor sit amet consectetur adipisicing elit.”', author: '@joaomaciel' },
+    { text: '“Provident illo accusantium deleniti repudiandae hic, minus rem magnam non quo odio.”', author: '@danielclaudio' },
+    { text: '“Error quasi molestias cupiditate iste placeat est voluptate aliquam! Ullam.”', author: '@danielmarte' }
   ];
   return (
    <div>
@@ -51,7 +51,7 @@ function App() {
         <div className={style.carousel}>
           <Carousel
             slides={slides}
-          />
+          /> 
           <div className={style.orderYourDrink}>
             <p>Peça para seu bar</p>  
           </div>
