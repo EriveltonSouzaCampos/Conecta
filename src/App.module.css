@@ -130,14 +130,56 @@
 }
 .askUs{
     color: #FFF;
+    margin-bottom: 13rem;
+}
+.askUs > h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Archivo';
+    line-height: 1.4;
 }
 .socialMedia{
     display: flex;
     gap: 0.5rem;
+    align-items: center;
+}
+.socialMedia > span{
+    display: flex;
+    gap: 0.5rem;
+}
+.socialMedia > p{
+    font-size: 0.75rem;
 }
 .forms{
     width: 45%;
 }
+.copyrigth{
+    background-color: var(--gray-500);
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+    font-family: 'inter';
+}
+.copyrigth  > p{
+    color: #667575;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+.copyrigth > div{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: #FFF;
+}
+.copyrigth > div p:first-child{
+    font-size: 0.5625rem;
+    font-weight: 400;
+}
+.copyrigth > div p:nth-child(2){
+    font-weight: 600;
+}
+
 /*Medias*/
 
 /*Media Products*/
@@ -275,4 +317,7 @@
         height: 14rem;
     }
 }
+/*end*/
+/*form*/
+
 /*end*/
