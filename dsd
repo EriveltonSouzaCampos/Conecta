@@ -1,0 +1,419 @@
+[33mcommit fab5ad710ae776beeb06e3c362d2f97ce80b07f7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 16:44:47 2023 -0300
+
+    feat: confg deploy sistem
+
+[33mcommit d1bc6931d5dbce2df2e609c9abba721db290481d[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 13:13:29 2023 -0300
+
+    feat: renamed title of site
+
+[33mcommit f3e93a2afa0c649b54b837de1b5cde4c53446bdc[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 13:06:58 2023 -0300
+
+    fix: width of input
+
+[33mcommit bae84fed2d40b4817baa92e726b17b6f80ff1f3e[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 12:58:49 2023 -0300
+
+    feat: created copyrigth section
+
+[33mcommit acc1486bd78174421031842f96f16ee20a9e4f00[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 12:58:30 2023 -0300
+
+    feat: applied responsiveness
+
+[33mcommit 2fd9691e8491fe5fee9da6178883be19eecbc212[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 12:46:35 2023 -0300
+
+    feat: finished style of form section
+
+[33mcommit 75fce0f41dfaf857a05ee07966c6a28ffb67a562[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 12:08:17 2023 -0300
+
+    feat: add new classname to button
+
+[33mcommit 67f6bb7a3961469c5d45617589a08e71e0795885[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 12:08:02 2023 -0300
+
+    chore: modified button style
+
+[33mcommit 5394e35585d67a8654f340489776b7439cf1bd02[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 02:37:18 2023 -0300
+
+    feat: created form and the style on display
+
+[33mcommit 71a76b07e4e8fb9fe048026a7041797235490b11[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 02:36:38 2023 -0300
+
+    feat: created dynamism of options to the dropdown
+
+[33mcommit 4f7b901d4a2351521aa3789d25348880372cc86f[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 02:35:43 2023 -0300
+
+    feat: applied style to form
+
+[33mcommit b4cb9194bc6cc872dbac589229e04526d8db144c[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 01:19:40 2023 -0300
+
+    feat: add span to put in column label and input
+
+[33mcommit beb9424ea3a2dac6425092e6f2b8244b0ffdcdd4[m
+Author: Erivelton Campos <ericampos119@gmail.com>
+Date:   Sat Sep 2 00:28:09 2023 -0300
+
+    chore: structuring form
+
+[33mcommit 1edf38ac6b497d9994f0e30f8da245208113dc27[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 22:59:48 2023 -0300
+
+    chore: add soda section
+
+[33mcommit 09fafa9d25914b7ad2695980fec9524da901f59e[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 22:59:28 2023 -0300
+
+    feat: changed unit of size, add responsiveness
+
+[33mcommit 90dd4c4f9209587e14d58037e459143267ff0d27[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 22:12:44 2023 -0300
+
+    feat: add style to soda section
+
+[33mcommit 04b24c449125d29d3e728b751ef5e8090570f5a8[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 20:05:30 2023 -0300
+
+    chore: add media to responsive display
+
+[33mcommit a074b692760b5ab4f487104421d9e9edb0bf1fff[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 19:08:05 2023 -0300
+
+    feat: replaced bg img to img tag
+
+[33mcommit 68fefeaa6134220b4ac2fd40c77fe004b5a6970e[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 19:07:26 2023 -0300
+
+    chore: add media to differents displayies
+
+[33mcommit ce46a7c91aeccece0bce72c60ebf16e4ae384985[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 19:07:03 2023 -0300
+
+    feat: changed backgorund image and add media
+
+[33mcommit ddce072686db5dedc1b2dac5da2fc88857a64562[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 18:18:54 2023 -0300
+
+    chore: centralizing text
+
+[33mcommit 477a0f315233bb9fb5c7bc952220da63b2a3a8dc[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:46:53 2023 -0300
+
+    fix: different texts
+
+[33mcommit 02aeb1dfa40dd77cb0ca5b2a18e358510ae9b7a7[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:45:15 2023 -0300
+
+    fix: changed the text and author
+
+[33mcommit 738c8a16395a4d70b2fa29eaeea221f7dccb02d9[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:41:10 2023 -0300
+
+    feat: add style for slides
+
+[33mcommit 50d2b6f7534636a3525a44cbc0302a431f5d6964[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:40:53 2023 -0300
+
+    chore: add new div
+
+[33mcommit a79dbf57efe6d261c42e82c1a28f80b3ccff0800[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:40:32 2023 -0300
+
+    feat: displaying the carousel
+
+[33mcommit e6c99340a9d161b197a2ea494c3d190d979ce230[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:40:14 2023 -0300
+
+    chore: add style to marketing section
+
+[33mcommit fc2c3c87d8fdd40f9df59f2d7bb0f09ba7cae465[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 16:39:44 2023 -0300
+
+    chore: add new font style
+
+[33mcommit b16bde70376c22b7d80837312d42c88d77fe181e[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 15:53:55 2023 -0300
+
+    docs: created and add files
+
+[33mcommit 8bff376c425329eec1b79fbb462665a92d0ceaba[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 15:53:27 2023 -0300
+
+    chore: created const to slides
+
+[33mcommit 3ebc7f94553bcd0084bcca599772683a62186221[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 15:52:12 2023 -0300
+
+    feat: created component to structure slides
+
+[33mcommit 2d58e202c327e63b42485894f30baf7590433479[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 13:45:23 2023 -0300
+
+    chore: created marketing section
+
+[33mcommit 9d489cddcc834b9be342516b424df2e48601eb53[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 13:44:16 2023 -0300
+
+    docs: add image files
+
+[33mcommit eeec3a2282499688846b67fbfd885f2e16f56551[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 13:08:39 2023 -0300
+
+    chore: changing name of products
+
+[33mcommit a20b65ca8f4fcb6768407b134be29339638036a4[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 13:08:08 2023 -0300
+
+    feat: calling new component Button
+
+[33mcommit 7bee98385a6811cd9e5da7d7574bb94090f94da1[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Fri Sep 1 13:07:31 2023 -0300
+
+    feat: creating dynamism  to others displays
+
+[33mcommit 627f40583510d0b5302f1f6895b2be447c074881[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 15:20:30 2023 -0300
+
+    fix: size of product card
+
+[33mcommit a04d1bd26eb5f8281b65dd75f856853eae4f60f3[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 15:18:32 2023 -0300
+
+    chore: add style to section product
+
+[33mcommit 01ac92131ea68557b88e7ba23ada3ca9480ce0f5[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:32:14 2023 -0300
+
+    feat: created a component for the button
+
+[33mcommit 51c86bf8972b32aeebcd3a89baf57a11ca8de753[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:31:25 2023 -0300
+
+    fix: button style
+
+[33mcommit c1da7508428a4bc67b24d1d91f90fe4c762b1b45[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:11:38 2023 -0300
+
+    chore: creating style to product section
+
+[33mcommit b7783be2bcbbba05f1f636f557faa0899cc95b71[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:11:21 2023 -0300
+
+    feat: creating style to product card
+
+[33mcommit 46a211eb1bd377804d4a99ac8d2dfe4fbafce447[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:10:24 2023 -0300
+
+    chore: created new div
+
+[33mcommit b2e86893ad61cbdca058ff04082c1995acf7d60f[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:09:56 2023 -0300
+
+    fix: url img on objects
+
+[33mcommit eaf31192229e5c7b7e51526f67fe0560f0d3f010[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Thu Aug 31 13:09:22 2023 -0300
+
+    docs: add new img file
+
+[33mcommit 34980edf7a57832202d948169dfeafef02e5dee8[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 23:22:29 2023 -0300
+
+    feat: created interface to recive info of prods
+
+[33mcommit 46cecd1bdcae24e6917febc5fc4b3c4b1a933a4d[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 23:22:04 2023 -0300
+
+    docs: created new file
+
+[33mcommit 5b18cfb42dc4903c820d703129adb7985210ef18[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 23:21:49 2023 -0300
+
+    feat: creating prods to send for component product
+
+[33mcommit dfc578337b5fa437185e08f6b1525af3e6d84247[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 22:54:33 2023 -0300
+
+    fix: hierarchy
+
+[33mcommit 25e4d5bee3ae7fd2ca009ce0e37a2371592c55da[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 22:28:11 2023 -0300
+
+    feat: created prods section
+
+[33mcommit 92d23f78a0f9e63eabed7ec6a92b11ec57b7b591[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 22:27:44 2023 -0300
+
+    feat: created new component to products
+
+[33mcommit fd319c284d2ca7b83e8cbc342ee46abdcf4ae4c1[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:34:59 2023 -0300
+
+    feat: calling function of component HeaderSite
+
+[33mcommit beeb1faa4cf04d0a82fc362f8a4d01e91c164661[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:34:35 2023 -0300
+
+    docs: created new file
+
+[33mcommit 59f1739ff79676e0f0724eacc2aa9421e99232a4[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:33:39 2023 -0300
+
+    chore: add new color var
+
+[33mcommit b3c9466b28f204c41d35f96e0fde80369e3706dd[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:33:23 2023 -0300
+
+    feat: add font style inter
+
+[33mcommit 9860805df77aaf756ce4e2d90c2fa2fa277d8eda[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:33:06 2023 -0300
+
+    fix: text and classname
+
+[33mcommit d4685a4714e6a942f8814e233d5c2eab05631a75[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:32:44 2023 -0300
+
+    chore: finished responsive for Header
+
+[33mcommit 5b9b7770e4cfe2c8fa9afc990f3c7bdfa38573ba[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 15:09:50 2023 -0300
+
+    chore: add style to body
+
+[33mcommit 9ca7ef1fd8ff192bc0fd6d92c05b26610c576747[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 14:11:52 2023 -0300
+
+    fix: import of style
+
+[33mcommit 5189ebe449f0e1274fca834ead2c280cff87c07d[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 14:11:34 2023 -0300
+
+    fix: background photo to display larger than 1440p
+
+[33mcommit 32d952041bd84c54d918130b999868822a4f53c5[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 14:10:29 2023 -0300
+
+    chore: add style to header
+
+[33mcommit edecbdbb098ebaeacb3fc015da21f9b23e28e14f[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 14:10:14 2023 -0300
+
+    feat: add font link Archivo
+
+[33mcommit dd210042ea369579ef5f9f2d2f116b89b9d662af[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:29:43 2023 -0300
+
+    feat: finished body section
+
+[33mcommit 4e111ce57383962c5bd81dc11e77b94606776caa[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:28:56 2023 -0300
+
+    feat: finished header secction
+
+[33mcommit dff7bdc6439488254698115ef0e1f905b1a458c7[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:18:42 2023 -0300
+
+    chore: created component to header
+
+[33mcommit 30c53bd6c8177b1b2184ce2b53065f97a2707d60[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:18:13 2023 -0300
+
+    chore: created component to soda image
+
+[33mcommit 7d25ad8110aaf81bd11ab2902973f164ea6676f7[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:17:44 2023 -0300
+
+    docs: add images files
+
+[33mcommit fb9f75d5c7530b1a4a8a991f8a5e876cce1ae62b[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:17:30 2023 -0300
+
+    docs: file renamed to Global
+
+[33mcommit 0393f3eb102ca752c3dd45a403b4bc32dd6a372a[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:17:02 2023 -0300
+
+    feat: add library phosphor-react
+
+[33mcommit fa94c9e4af9dda3c9db58fcbdc62e82faa627fdc[m
+Author: Erivelton Campos <ercampos@id.uff.br>
+Date:   Wed Aug 30 13:02:28 2023 -0300
+
+    First Commit
