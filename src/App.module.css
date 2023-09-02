@@ -70,29 +70,29 @@
 .sodaLeft img:first-child{
     position: absolute;
     width: 9rem;
-    height: 27vh;
+    height: 15rem;
     filter: blur(2px);
     transform: rotate(23deg);
     top: 0px;
-    left: 12%;
+    left: 10%;
     margin-top: -118px;
 }
 .sodaLeft img:nth-child(2){
     position: absolute;
     width: 24vw;
-    height: 48vh;
+    height: 25.6rem;
     transform: rotate(341deg);
     bottom: 0;
     left: 15%;
     margin-bottom: -109px;
 }
 .sodaRigth img{
-    height: 68vh;
+    height: 39.18rem;
     width: 20vw;
     position: absolute;
     top: 0;
     left: 72%;
-    margin-top: -15vh;
+    margin-top: -100px;
     transform: rotate(15deg);
     overflow: hidden;
     object-fit: cover;
@@ -213,6 +213,52 @@
     .orderYourDrink p{
         right: 18%;
         font-size: 1.125rem;
+    }
+}
+/*end*/
+
+/*Media soda section*/
+@media (max-width:1227px) {
+    .sodaLeft img:first-child{
+        left: 5%;
+    }
+    .sodaRigth img{
+        height: 35rem;
+    }
+}
+@media (max-width:931px) {
+    .sodaLeft img:first-child{
+        left: 3%;
+    }
+    .sodaLeft img:nth-child(2){
+        width: 24vw;
+        height: 23.5rem;
+        left: 12%;
+        margin-bottom: -131px;
+    }
+    .sodaRigth > img{
+        width: 20vw;
+        height: 27rem;
+        margin-top: -70px;
+    }
+}
+@media (max-width: 724px) {
+    .sodaConter{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        height: 26rem;
+    }
+    .sodaLeft{
+        display: none;
+    }
+    .sodaRigth img{
+        position: unset;
+        transform: rotate(0);
+        margin-bottom: 0;
+        margin-top: -130px;
+        width: 9rem;
+        height: 14rem;
     }
 }
 /*end*/
