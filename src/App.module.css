@@ -319,5 +319,32 @@
 }
 /*end*/
 /*form*/
-
+    @media (max-width:985px) {
+        .askUsConter{
+            flex-direction: column;
+            gap: 4rem;
+        }
+        .askUs{
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .copyrigth{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .forms{
+            width: 85%;
+        }
+        
+    }
+    @media (max-width: 450px) {
+        .askUs > h1{
+            font-size: 2rem;
+        }
+    }
 /*end*/

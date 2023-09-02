@@ -82,4 +82,23 @@
         padding: 1rem 2rem;
     }
 /*end*/
-
+@media (max-width:985px) {
+    .telAndEmail{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .telAndEmail span:nth-child(1){
+        width: 100%;
+    }
+    .telAndEmail span:nth-child(2){
+        width: 100%;
+    }
+    .buttonForm > a{
+        justify-content: center;
+        margin: 1rem 0 0 0;
+    }
+    .buttonForm > a > button{
+        width: 100%;
+    }
+}
