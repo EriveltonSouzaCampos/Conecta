@@ -80,11 +80,11 @@ function App() {
       </div>
       <div className={style.askUsConter}>
           <div className={style.askUs}>
-              <h1>Fale Conosco</h1>
+              <h1>Fale Conosco.</h1>
               <div className={style.socialMedia}>
                   <span>
-                    <FacebookLogo/>
-                    <InstagramLogo/>
+                    <FacebookLogo size={18}/>
+                    <InstagramLogo size={18}/>
                   </span>
                   <span>|</span>
                   <p>REDES SOCIAIS</p>
@@ -96,6 +96,13 @@ function App() {
             />
           </div>
       </div>
+      <footer className={style.copyrigth}>
+        <p>Todos os direitos reservados © 2020 Conecta</p>
+        <div>
+          <p>PROJETADO POR</p>
+          <p>CONECTA.</p>
+        </div>
+      </footer>
     </div>
   )
 }
