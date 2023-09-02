@@ -1,74 +1,85 @@
 /*tags*/
-span{
-    margin-bottom: 0.5rem;
-}
-label{
-    color: #667575;
-}
+    span{
+        margin-bottom: 0.5rem;
+    }
+    label{
+        color: #667575;
+    }
 
-input, select, textarea{
-    background: transparent;
-    border: 2px solid var(--gray-500);
-    border-top: 1px solid #FFF;
-    border-right: 1px solid #FFF;
-    height: 2.5rem;
-    color: #ffffff;
-    font-size: 0.875rem;
-    font-family: 'inter';
-}
-select option {
-    background-color: var(--gray-500); 
-    border: none;
-}
+    input, select, textarea{
+        background: transparent;
+        border: 2px solid var(--gray-500);
+        border-top: 1px solid #FFF;
+        border-right: 1px solid #FFF;
+        height: 2.5rem;
+        color: #ffffff;
+        font-size: 0.875rem;
+        font-family: 'inter';
+    }
+    select option {
+        background-color: var(--gray-500); 
+        border: none;
+    }
 /*end*/
+
 /*focus*/
-input:focus, textarea:focus, select:focus {
-    border-top: 1px solid var(--green-400);
-    border-right: 1px solid var(--green-400); 
-}
-input:focus, textarea:focus{
-    background-color: #494c49;
-}
-input:focus + label, textarea:focus + label, select:focus + label {
-    color: var(--green-400);
-}
+    input:focus, textarea:focus, select:focus {
+        border-top: 1px solid var(--green-400);
+        border-right: 1px solid var(--green-400); 
+    }
+    input:focus, textarea:focus{
+        background-color: #494c49;
+    }
+    input:focus + label, textarea:focus + label, select:focus + label {
+        color: var(--green-400);
+    }
 /*end*/
 
 /*form*/
-.formConter label{
-    margin-bottom: 0.5rem;
-}
-.formConter > span{
-    display: flex;
-    flex-direction: column-reverse;
-}
-.telAndEmail{
-    display: flex;
-    gap: 3rem;
-}
-.telAndEmail span{
-    display: flex;
-    flex-direction: column-reverse;
-}
-.telAndEmail span:nth-child(1){
-    width: 18%;
-}
-.telAndEmail span:nth-child(2){
-    width: 80%;
-}
-.dropAndArea{
-    display: flex;
-    flex-direction: column;
-}
-.dropAndArea span{
-    display: flex;
-    flex-direction: column-reverse;
-}
-.dropAndArea span:nth-child(1) > select{
-    height: 2.875rem;
-}
-.dropAndArea span:nth-child(2) > textarea{
-    height: 10rem;
-}
+    .formConter label{
+        margin-bottom: 0.5rem;
+    }
+    .formConter > span{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .telAndEmail{
+        display: flex;
+        gap: 3rem;
+    }
+    .telAndEmail span{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .telAndEmail span:nth-child(1){
+        width: 24%;
+    }
+    .telAndEmail span:nth-child(2){
+        width: 80%;
+    }
+    .dropAndArea{
+        display: flex;
+        flex-direction: column;
+    }
+    .dropAndArea span{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dropAndArea span:nth-child(1) > select{
+        height: 2.875rem;
+    }
+    .dropAndArea span:nth-child(2) > textarea{
+        height: 10rem;
+    }
+    .buttonForm > a{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin: 4rem 0 0 0;
+        color: var(--gray-600);
+    }
+    .buttonForm a > button{
+        padding: 1rem 2rem;
+    }
 /*end*/
 
