@@ -22,7 +22,7 @@ const Carousel = ({ slides }: TextCarouselProps) => {
           <div className={style.author}>{slides[currentIndex].author}</div>
       </div>
       <div className={style.dotsConter}>
-        {slides.map((slide, index) => (
+        {slides.map((_, index) => (
           <span
             key={index}
             className={`${style.dot} ${index === currentIndex ? style.active : ''}`}
