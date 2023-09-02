@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Button } from "./Button";
 import style from './Forms.module.css'
 interface propsForm{
@@ -47,7 +46,7 @@ export function Forms(props: propsForm) {
                 <label htmlFor="textArea">Mensagem</label>
             </span>
         </div>
-        <Button/>
+        <span className={style.buttonForm}><Button/></span>
     </div>
     );
   }
