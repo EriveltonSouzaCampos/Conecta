@@ -56,10 +56,73 @@
     top: 50%;
     z-index: 5;
 }
+/*end*/
+/*soda section*/
+.sodaConter{
+    display: flex;
+    background-color: var(--green-400);
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    height: 18rem;
+}
+.sodaLeft img:first-child{
+    position: absolute;
+    width: 9rem;
+    height: 27vh;
+    filter: blur(2px);
+    transform: rotate(23deg);
+    top: 0px;
+    left: 12%;
+    margin-top: -118px;
+}
+.sodaLeft img:nth-child(2){
+    position: absolute;
+    width: 24vw;
+    height: 48vh;
+    transform: rotate(341deg);
+    bottom: 0;
+    left: 15%;
+    margin-bottom: -109px;
+}
+.sodaRigth img{
+    height: 68vh;
+    width: 20vw;
+    position: absolute;
+    top: 0;
+    left: 72%;
+    margin-top: -15vh;
+    transform: rotate(15deg);
+    overflow: hidden;
+    object-fit: cover;
+}
+.askButton{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.askButton button{
+    background-color: var(--gray-500);
+    color: #FFF;
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 0.875rem;
+    padding: 1rem 4rem ;
+}
+.askButton > h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Archivo';
+}
 
-
-
-
+.teste12{
+    background-color: var(--gray-700);
+    height: 30rem;
+    width: 100%;
+    position: relative;
+}
 /*end*/
 /*Medias*/
 
@@ -152,3 +215,4 @@
         font-size: 1.125rem;
     }
 }
+/*end*/
