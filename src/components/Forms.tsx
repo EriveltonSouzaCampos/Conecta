@@ -1,37 +1,50 @@
+import { useState } from "react";
 import { Button } from "./Button";
 import style from './Forms.module.css'
+interface propsForm{
+    options: string[]
+}
 
-export function Forms() {
-    const nothing = ' '
+export function Forms(props: propsForm) {
+    
     return (
     <div className={style.formConter}>
         <span>
-            <label htmlFor="text">Nome</label>
             <input type="text" id="text" />
+            <label htmlFor="text">Nome</label>
         </span>
         <div className={style.telAndEmail}>
             <span>
+                <input 
+                type="tel" 
+                id="tel" 
+                placeholder="(21) 0000-0000"
+                />
                 <label htmlFor="tel">Tel</label>
-                <input type="tel" id="tel" />
             </span>
             <span>
+                <input placeholder="email@email.com.br" type="text" id="email" />
                 <label htmlFor="email">Email</label>
-                <input type="text" id="email" />
             </span>
         </div>
         <div className={style.dropAndArea}>
             <span>
-                <label htmlFor="drop">Assunto</label>
-                <select id="drop">
-                    <option value="1">oi</option>
-                    <option value="2">oie</option>
-                    <option value="3">oiee</option>
-                    <option value="4">oioioi</option>
+                
+                <select 
+                    id="drop"
+                >
+                    <option value="" disabled selected>Escolha um assunto</option>
+                    {
+                        props.options.map((option) => (
+                            <option value="">{option}</option>
+                        ))
+                    }
                 </select>
+                <label htmlFor="drop">Assunto</label>
             </span>
             <span>
-                <label htmlFor="textArea">Mensagem</label>
                 <textarea id="textArea" cols={30} rows={10}></textarea>
+                <label htmlFor="textArea">Mensagem</label>
             </span>
         </div>
         <Button/>
