@@ -1,11 +1,14 @@
 import { HeaderSite } from "./components/Header"
 import style from './App.module.css'
+import { FacebookLogo } from 'phosphor-react';
+import { InstagramLogo } from 'phosphor-react';
 import { Prods } from "./components/Products"
 import sidePicture from './assets/conversas.svg'
 import drinkPicture from './assets/bar.svg'
 import sodaPicture from './assets/latas.svg'
 import Carousel from "./components/Carousel"
 import { Button } from "./components/Button"
+import { Forms } from "./components/Forms";
 
 function App() {
   const products = [
@@ -29,6 +32,7 @@ function App() {
     { text: '“Provident illo accusantium deleniti repudiandae hic, minus rem magnam non quo odio.”', author: '@danielclaudio' },
     { text: '“Error quasi molestias cupiditate iste placeat est voluptate aliquam! Ullam.”', author: '@danielmarte' }
   ];
+  const options = ["Opção 1", "Opção 2", "Opção 3", "Conexão ruim", "Fraude", "Produto Ruim", "Contratar serviço"]
   return (
    <div>
       <header><HeaderSite/></header>
@@ -74,8 +78,23 @@ function App() {
           <img src={sodaPicture} alt="" />
         </div>
       </div>
-      <div className={style.teste12}>
-
+      <div className={style.askUsConter}>
+          <div className={style.askUs}>
+              <h1>Fale Conosco</h1>
+              <div className={style.socialMedia}>
+                  <span>
+                    <FacebookLogo/>
+                    <InstagramLogo/>
+                  </span>
+                  <span>|</span>
+                  <p>REDES SOCIAIS</p>
+              </div>
+          </div>
+          <div className={style.forms}>
+            <Forms
+              options = {options}
+            />
+          </div>
       </div>
     </div>
   )

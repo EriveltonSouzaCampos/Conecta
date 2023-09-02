@@ -117,13 +117,27 @@
     font-family: 'Archivo';
 }
 
-.teste12{
-    background-color: var(--gray-700);
-    height: 30rem;
+
+/*end*/
+.askUsConter{
+    background-color: var(--gray-500);
     width: 100%;
     position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 9rem 0;
 }
-/*end*/
+.askUs{
+    color: #FFF;
+}
+.socialMedia{
+    display: flex;
+    gap: 0.5rem;
+}
+.forms{
+    width: 45%;
+}
 /*Medias*/
 
 /*Media Products*/
