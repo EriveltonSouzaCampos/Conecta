@@ -52,7 +52,7 @@
         flex-direction: column-reverse;
     }
     .telAndEmail span:nth-child(1){
-        width: 24%;
+        width: 27%;
     }
     .telAndEmail span:nth-child(2){
         width: 80%;
