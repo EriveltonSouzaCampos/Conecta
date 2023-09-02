@@ -3,7 +3,9 @@ import style from './App.module.css'
 import { Prods } from "./components/Products"
 import sidePicture from './assets/conversas.svg'
 import drinkPicture from './assets/bar.svg'
+import sodaPicture from './assets/latas.svg'
 import Carousel from "./components/Carousel"
+import { Button } from "./components/Button"
 
 function App() {
   const products = [
@@ -59,7 +61,23 @@ function App() {
           </div>
         </div>
       </div>
-   </div>
+      <div className={style.sodaConter}>
+        <div className={style.sodaLeft}>
+          <img src={sodaPicture} alt="" />
+          <img src={sodaPicture} alt="" />
+        </div>
+        <div className={style.askButton}>
+          <h1>Quer experimentar?</h1>
+          <Button/>
+        </div>
+        <div className={style.sodaRigth}>
+          <img src={sodaPicture} alt="" />
+        </div>
+      </div>
+      <div className={style.teste12}>
+
+      </div>
+    </div>
   )
 }
 
